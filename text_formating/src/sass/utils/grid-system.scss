@@ -1,0 +1,10 @@
+/* Flex one is with space between divs */
+.flex-one{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Flex one is without space between divs */
+.flex-two{
+  display: flex;
+}

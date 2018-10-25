@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1, h2, h3, h4, h5, h6{
+  margin: 1.2rem 0;
+  line-height: normal;
+}
+
+h1{
+  font-size: $h1Size;
+}
+h2{
+  font-size: $h2Size;
+}
+h3{
+  font-size: $h3Size;
+}
+h4{
+  font-size: $h4Size;
+}
+h5{
+  font-size: $h5Size;
+}
+h6{
+  font-size: $h6Size;
+}
+
+p{
+  line-height: $pLineHeight;
+  color: $pColor;
+  margin-bottom: $pMargin;
+  font-size: $pSize;
+}
+
+span{
+  font-size: $spanSize;
+  color: $spanColor;
+  margin-bottom: $spanMargin !important;
+  line-height: normal;
+}
+
+@media all and (min-width: 768px){
+  h1{
+    font-size: $h1SizeMedia768;
+  }
+  h2{
+    font-size: $h2SizeMedia768;
+  }
+  h3{
+    font-size: $h3SizeMedia768;
+  }
+  h4{
+    font-size: $h4SizeMedia768;
+  }
+  h5{
+    font-size: $h5SizeMedia768;
+  }
+  h6{
+    font-size: $h6SizeMedia768;
+  }
+  p{
+    margin-bottom: $pMarginMedia768;
+    font-size: $pSizeMedia768;
+  }
+  span{
+    font-size: $spanSizeMedia768;
+    margin-bottom: $spanMarginMedia768 !important;
+  }
+}
